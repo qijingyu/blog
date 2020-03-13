@@ -1,44 +1,35 @@
+#个人博客系统
+这个项目是一个个人博客系统作为生日礼物赠予我的宝贝张田
+
+##使用说明
+此项目主要通过解析markdown文件来展示内容。该项目部署在github上 利用git工具进行上传、修改等操作
+
+##操作手册
+step.1 使用github desktop
+
+
+##可免费使用的图床
+[路过图床](https://imgchr.com/)
+简介：支持免注册上传图片，永久存储，支持HTTPS加密访问和调用图片，提供多种图片链接格式，成立于2011年
+限制：最大10M
+
+[SM.MS](https://sm.ms)
+特点：永久存储免注册，图片链接支持https，可以删除上传的图片，提供多种图片链接格式，建立于2015年，目前免费用户无法使用香港节点
+图片上传限制：每个图片最大5M，每次最多上传10张
+
+[ImgURL](https://imgurl.org)
+简介：始于2017年底，由个人开发的图床，代码开源支持自建
+限制：游客限制每日上传10张，单张图片不能超过5M，上传的图片将公开显示，经测试会删除图片
+
+[postimg](https://postimages.org)
+简介：国外的图床，但是速度也很快。永久存储免注册，图片链接支持https，可以删除上传的图片，提供多种图片链接格式
+限制：匿名上传和免费帐户上传的图片仅限于12Mb和10k x 10k像素。高级帐户仅限于24Mb和10k x 10k像素。每批最多限制为1000张图像，如果不够可以创建一个帐户并将多批图像上传到同一个图库中，经测试会删除图片
+
+##关于开发和打包
+###本地预览模式
+#### `yarn start`
+###单元测试
+#### `yarn test`
+###打包
+#### `yarn build`
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
