@@ -1,11 +1,10 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
 # dependencies
 **/node_modules
-# roadhog-api-doc ignore
 /src/utils/request-temp.js
-_roadhog-api-doc
 
 # production
-/dist
 /.vscode
 
 # misc
@@ -23,7 +22,8 @@ package-lock.json
 # visual studio code
 .history
 *.log
-functions/*
+
+functions/mock
 .temp/**
 
 # umi
@@ -33,6 +33,3 @@ functions/*
 # screenshot
 screenshot
 .firebase
-.eslintcache
-
-build
